@@ -20,6 +20,7 @@ import (
 	"github.com/influxdata/kapacitor/auth"
 	"github.com/influxdata/kapacitor/command"
 	iclient "github.com/influxdata/kapacitor/influxdb"
+	"github.com/influxdata/kapacitor/server/vars"
 	"github.com/influxdata/kapacitor/services/alert"
 	"github.com/influxdata/kapacitor/services/alerta"
 	"github.com/influxdata/kapacitor/services/azure"
@@ -62,7 +63,6 @@ import (
 	"github.com/influxdata/kapacitor/services/udp"
 	"github.com/influxdata/kapacitor/services/victorops"
 	"github.com/influxdata/kapacitor/uuid"
-	"github.com/influxdata/kapacitor/vars"
 	"github.com/pkg/errors"
 )
 
