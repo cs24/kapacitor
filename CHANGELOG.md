@@ -4,9 +4,11 @@
 
 ### Features
 
-### Bugfixes
-- [#1400](https://github.com/influxdata/kapacitor/issues/1400): Allow for `.yml` file extensions in `define-topic-handler`
+- [#1413](https://github.com/influxdata/kapacitor/issues/1413): Add subscriptions modes to InfluxDB subscriptions.
 
+### Bugfixes
+
+- [#1400](https://github.com/influxdata/kapacitor/issues/1400): Allow for `.yml` file extensions in `define-topic-handler`
 - [#1402](https://github.com/influxdata/kapacitor/pull/1402): Fix http server error logging.
 
 ## v1.3.0 [2017-05-22]
